@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())  # read local .env file
-openai.api_key = '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'
+openai.api_key = 'OPENAI_KEY'
 
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
